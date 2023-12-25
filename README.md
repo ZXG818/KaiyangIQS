@@ -1,4 +1,4 @@
-# Improved quasi-static method solver based on OpenFOAM.
+# Improved quasi-static method solver based on OpenFOAM - KaiyangIQS.
 
 This is a neutron space-time kinetics solver with improved quasi-static method based on OpenFOAM. The algorithm, numerical methods, and validated cases can be referred from: *Development of a neutron space-time kinetics solver with improved quasi-static method based on OpenFOAM, Nuclear Engineering and Design (under review)*
 
