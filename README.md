@@ -8,3 +8,7 @@ Tutor: Prof. Dalin Zhang（张大林）, Xi'an Jiaotong University, China, <dlzh
 Author: Xingguang Zhou（周星光）, Doctor of Engineering (student) at Xi'an Jiaotong University, China, <zxg818@stu.xjtu.edu.cn>
 
 Lab: Nuclear Thermal-hydraulic Laborratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
+
+## OpenFOAM version
+OpenFOAM-v2006, <https://www.openfoam.com/news/main-news/openfoam-v20-06>
+
