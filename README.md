@@ -9,7 +9,7 @@ Author: Xingguang Zhou (周星光), Doctor of Engineering (student) at Xi'an Jia
 
 Author: Xinyu Li (李新宇), Doctor of Philosophy (student) at Xi'an Jiaotong University, China, <lixinyu0031@stu.xjtu.edu.cn>
 
-Lab: Nuclear Thermal-hydraulic Laborratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
+Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
 
 ## OpenFOAM version
 The iqs solver developed in this study is based on OpenFOAM-v2006, and the website is <https://www.openfoam.com/news/main-news/openfoam-v20-06>
