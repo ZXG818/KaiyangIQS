@@ -7,4 +7,4 @@ Tutor: Prof. Dalin Zhang（张大林）, Xi'an Jiaotong University, China, <dlzh
 
 Author: Xingguang Zhou（周星光）, Doctor of Engineering (student) at Xi'an Jiaotong University, China, <zxg818@stu.xjtu.edu.cn>
 
-Lab: 
+Lab: Nuclear Thermal-hydraulic Laborratory at Xi'an Jiaotong University (XJTU-NuTHeL)
