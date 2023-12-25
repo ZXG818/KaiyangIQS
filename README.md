@@ -12,5 +12,5 @@ Author: Xinyu Li (李新宇), Doctor of Philosophy (student) at Xi'an Jiaotong U
 Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
 
 ## OpenFOAM version
-The iqs solver developed in this study is based on OpenFOAM-v2006, and the website is <https://www.openfoam.com/news/main-news/openfoam-v20-06>
+The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006, and the website is <https://www.openfoam.com/news/main-news/openfoam-v20-06>
 
