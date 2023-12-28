@@ -34,4 +34,5 @@ For each benchmark validation, the name of the dictionary usually contains the k
 
 ## Notes 
 1. Initial fields at ```t = 0s``` of shape function and DNPs are obtained from the diffusion solver **sp3Foam**. sp3Foam is a low-order neutron transport equation solver with SP3 method, and this solver also can solve the neutron diffusion equation. sp3Foam is under reviewing at *Development and validation of a low-order neutron transport solver with SP3 method based on OpenFOAM, Progress in Nuclear Energy (under review)*. We will open-source this solver while the under reivew has done.
-2. KaiyangIQS has hard-coded the change of group constants and kinetics parameter calculation. 
+2. KaiyangIQS has hard-coded the change of group constants and kinetics parameter calculation. Therefore, users need to manually modify the **shapeDiffusion/ChangeGroupConstant.H** and **shapeDiffusion/KineticEffectiveCalc.H**. For the verification of the three benchmark problems in this paper, we have made all code modifications. Users only need to recompile the solvers in the corresponding folders before running different benchmark problem.
+3. 
