@@ -37,7 +37,7 @@ For each benchmark validation, the name of the dictionary usually contains the k
 2. KaiyangIQS has hard-coded the change of group constants and kinetics parameter calculation. Therefore, users need to manually modify the **shapeDiffusion/ChangeGroupConstant.H** and **shapeDiffusion/KineticEffectiveCalc.H**. For the verification of the three benchmark problems in this paper, we have made all code modifications. Users only need to recompile the solvers in the corresponding folders before running different benchmark problem.
 3. Point kinetics solver and adjoint scalar flux diffusion equation solver in this paper also can both run independently and be validated.
 4. For TWIGL benchmark problem, there are two cases: ramp perturbation and linear perturbation. This repo only uploads the linear perturbation. If the user want to run the ramp perturbation case, only need to modify the read group constant file, and it is easy. 
-5. At present, this version of KaiyangIQS is still in the debugging state, and further optimization of its code architecture will be carried out, including but not limited to group constants input optimization, post-processing optimization, parallel computing, etc.
+5. At present, this version of KaiyangIQS is still an alpha version (in the debugging state), and further optimization of its code architecture will be carried out, including but not limited to group constants input optimization, post-processing optimization, parallel computing, etc.
 
 ## License 
 KaiyangIQS is complied with GPLv3 license: <https://www.gnu.org/licenses/gpl-3.0.en.html>. 
