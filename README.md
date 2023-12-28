@@ -9,10 +9,10 @@ Author: Xingguang Zhou (周星光), Doctor of Engineering (student) at Xi'an Jia
 
 Author: Xinyu Li (李新宇), Doctor of Philosophy (student) at Xi'an Jiaotong University, China, <lixinyu0031@stu.xjtu.edu.cn>
 
-Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
+Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuTHeL), lab page: <http://nuthel.xjtu.edu.cn/index.htm>
 
 ## OpenFOAM version
-The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006, and the website is <https://www.openfoam.com/news/main-news/openfoam-v20-06>
+The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006, and the website is: <https://www.openfoam.com/news/main-news/openfoam-v20-06>
 
 ## Description
 There are three benchmark problems in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which has been validated in the paper. 
@@ -36,7 +36,7 @@ For each benchmark validation, the name of the dictionary usually contains the k
 1. Initial fields at ```t = 0s``` of shape function and DNPs are obtained from the diffusion solver **sp3Foam**. sp3Foam is a low-order neutron transport equation solver with SP3 method, and this solver also can solve the neutron diffusion equation. sp3Foam is under reviewing at *Development and validation of a low-order neutron transport solver with SP3 method based on OpenFOAM, Progress in Nuclear Energy (under review)*. We will open-source this solver while the under reivew has done.
 2. KaiyangIQS has hard-coded the change of group constants and kinetics parameter calculation. Therefore, users need to manually modify the **shapeDiffusion/ChangeGroupConstant.H** and **shapeDiffusion/KineticEffectiveCalc.H**. For the verification of the three benchmark problems in this paper, we have made all code modifications. Users only need to recompile the solvers in the corresponding folders before running different benchmark problem.
 3. Point kinetics solver and adjoint scalar flux diffusion equation solver in this paper also can both run independently and be validated.
-4. At present, this version of KaiyangIQS is still in the debugging state, and further optimization of its code architecture will be carried out, including but not limited to group constants input, post-processing, parallel computing, etc.
+4. At present, this version of KaiyangIQS is still in the debugging state, and further optimization of its code architecture will be carried out, including but not limited to group constants input optimization, post-processing optimization, parallel computing, etc.
 
 ## License 
 KaiyangIQS is complied with GPLv3 license: <https://www.gnu.org/licenses/gpl-3.0.en.html>. 
