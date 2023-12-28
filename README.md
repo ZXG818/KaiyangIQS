@@ -5,9 +5,9 @@ This is a neutron space-time kinetics solver with improved quasi-static method b
 ## Authors' infomation
 Tutor: Dalin Zhang (张大林), Professor, Xi'an Jiaotong University, China, <dlzhang@mail.xjtu.edu.cn>, personal page: <https://gr.xjtu.edu.cn/en/web/dlzhang>
 
-Author: Xingguang Zhou (周星光), Doctor of Engineering (student), Xi'an Jiaotong University, China, <zxg818@stu.xjtu.edu.cn>
+Author: Xingguang Zhou (周星光), Doctor of Engineering (student), Xi'an Jiaotong University, China, <zxg818@stu.xjtu.edu.cn>, GitHub page: <https://github.com/ZXG818>
 
-Author: Xinyu Li (李新宇), Doctor of Philosophy (student), Xi'an Jiaotong University, China, <lixinyu0031@stu.xjtu.edu.cn>
+Author: Xinyu Li (李新宇), Doctor of Philosophy (student), Xi'an Jiaotong University, China, <lixinyu0031@stu.xjtu.edu.cn>, GitHub page: <https://github.com/Xinyu-Li-1997>
 
 Lab: Nuclear Thermal-hydraulic Laboratory, Xi'an Jiaotong University (XJTU-NuTHeL), lab page: <http://nuthel.xjtu.edu.cn/index.htm>
 
