@@ -16,6 +16,6 @@ The improved quasi-static method solver, KaiyangIQS, developed in this study is 
 
 ## Description
 There are three cases in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which has been validated in the paper. 
-# Improved quasi-static solver
+### Improved quasi-static solver
 In each case, the dictionary **neutronKineticsSolver** is the solver with improved quasi-static method. 
 
