@@ -38,4 +38,4 @@ For each benchmark validation, the name of the dictionary usually contains the k
 3. Point kinetics solver and adjoint scalar flux diffusion equation solver in this paper also can both run independently and be validated.
 
 ## License 
-KaiyangIQS is complied with GPLv3 license <https://www.gnu.org/licenses/gpl-3.0.en.html>. 
+KaiyangIQS is complied with GPLv3 license: <https://www.gnu.org/licenses/gpl-3.0.en.html>. 
