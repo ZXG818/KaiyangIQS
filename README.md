@@ -29,7 +29,7 @@ For each benchmark validation, the name of the dictionary usually contains the k
 ### Compile the solver and run the cases
 1. Open the terminal at the directory of iqsNeutronicsFoam, make sure to use the OpenFOAM-v2006 environment. Then, enter ```wclean``` and ```wmake```.
 2. Swith the terminal to ***xxxProblem/Problem*** directory. Make sure to use the OpenFOAM-v2006 environment. Then enter ```testIQS >log``` in terminal.
-3. After completing step 2, we can see that there is a **log** file occurs, and the results are at this file.
+3. After completing step 2, we can see that there is a **log** file occurs, and the results are in this file.
 4. When calculation has done, we open the **log** file and use a text editor (such as Microsoft VScode: <https://code.visualstudio.com/>) to search and extract the target strings like ```n/n0 = 7(result a b c d e f)```.
 
 ## Notes 
