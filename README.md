@@ -4,8 +4,11 @@ This is a neutron space-time kinetics solver with improved quasi-static method b
 
 ## Authors' infomation
 Tutor: Prof. Dalin Zhang (张大林), Xi'an Jiaotong University, China, <dlzhang@mail.xjtu.edu.cn>, personal page: <https://gr.xjtu.edu.cn/en/web/dlzhang>
+
 Author: Xingguang Zhou (周星光), Doctor of Engineering (student) at Xi'an Jiaotong University, China, <zxg818@stu.xjtu.edu.cn>
+
 Author: Xinyu Li (李新宇), Doctor of Philosophy (student) at Xi'an Jiaotong University, China, <lixinyu0031@stu.xjtu.edu.cn>
+
 Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuTHeL), website: <http://nuthel.xjtu.edu.cn/index.htm>
 
 ## OpenFOAM version
