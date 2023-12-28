@@ -23,7 +23,7 @@ There are three benchmark problems in this repository. *Unidimensional-rod-eject
 3. In the directory of iqsNeutronicsFoam, **pointKinetics** is the module of amplitude function, **shapeDiffusion** is the module of shape function. **iqsNeutronicsFoam.C** is the main control of the whole algorithm.
 4. Users will change the group constants over time at **shapeDiffusion/ChangeGroupConstant.H**, and calculate the kinetics parameters at **shapeDiffusion/KineticEffectiveCalc.H**. 
 
-### Bechmark validation
+### Benchmark validation
 For each benchmark validation, the name of the dictionary usually contains the keyword **Problem**. The benchmark validation directory is in the same level of directory **neutronKineticsSolver**.
 
 ### Compile the solver and run the cases
