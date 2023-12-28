@@ -15,5 +15,7 @@ Lab: Nuclear Thermal-hydraulic Laboratory at Xi'an Jiaotong University (XJTU-NuT
 The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006, and the website is <https://www.openfoam.com/news/main-news/openfoam-v20-06>
 
 ## Description
-There are three cases in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which has been validated in the paper. In each case, the dictionary **neutronKineticsSolver** is the solver with improved quasi-static method. 
+There are three cases in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which has been validated in the paper. 
+# Improved quasi-static solver
+In each case, the dictionary **neutronKineticsSolver** is the solver with improved quasi-static method. 
 
