@@ -18,10 +18,13 @@ The improved quasi-static method solver, KaiyangIQS, developed in this study is 
 There are three cases in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which has been validated in the paper. 
 
 ### Improved quasi-static solver
-In each case, the directory **neutronKineticsSolver** is the solver with improved quasi-static method. In the directory neutronKineticsSolver, **adjointDiffusionFoam** is the solver of adjoint scalar flux diffusion equation, and **iqsNeutronicsFoam** is the solver with improved quasi-statics method. In the directory of iqsNeutronicsFoam, **pointKinetics** is the module of amplitude function, **shapeDiffusion** is the module of shape function. **iqsNeutronicsFoam.C** is the main control of the whole algorithm. Users will change the group constants over time at **shapeDiffusion/ChangeGroupConstant.H**, and calculate the kinetics parameters at **KineticEffectiveCalc.H**. 
+1. In each case, the directory **neutronKineticsSolver** is the solver with improved quasi-static method.
+2. In the directory neutronKineticsSolver, **adjointDiffusionFoam** is the solver of adjoint scalar flux diffusion equation, and **iqsNeutronicsFoam** is the solver with improved quasi-statics method.
+3. In the directory of iqsNeutronicsFoam, **pointKinetics** is the module of amplitude function, **shapeDiffusion** is the module of shape function. **iqsNeutronicsFoam.C** is the main control of the whole algorithm.
+4. Users will change the group constants over time at **shapeDiffusion/ChangeGroupConstant.H**, and calculate the kinetics parameters at **KineticEffectiveCalc.H**. 
 
 ### Bechmark validation
 For each benchmark validation, the name of the dictionary usually contains the keyword **Problem**. The benchmark validation directory is in the same level of directory **neutronKineticsSolver**.
 
-### How to run the cases.
-
+### Compile the solver and run the cases
+First, we should 
