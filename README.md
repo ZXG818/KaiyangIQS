@@ -27,4 +27,4 @@ There are three cases in this repository. *Unidimensional-rod-ejection*, *TWIGL-
 For each benchmark validation, the name of the dictionary usually contains the keyword **Problem**. The benchmark validation directory is in the same level of directory **neutronKineticsSolver**.
 
 ### Compile the solver and run the cases
-First, we should 
+1. Open the terminal at the directory of iqsNeutronicsFoam, make sure to use the OpenFOAM-v2006 environment. Then, enter ```wclean``` and ```wmake```. 
