@@ -12,7 +12,7 @@ Author: Xinyu Li (李新宇), Doctor of Philosophy (student), Xi'an Jiaotong Uni
 Lab: Nuclear Thermal-hydraulic Laboratory, Xi'an Jiaotong University (XJTU-NuTHeL), lab page: <http://nuthel.xjtu.edu.cn/index.htm>
 
 ## OpenFOAM version
-The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006, and the website is: <https://www.openfoam.com/news/main-news/openfoam-v20-06>
+The improved quasi-static method solver, KaiyangIQS, developed in this study is based on OpenFOAM-v2006. You can find and download OpenFOAM-v2006 freely at: <https://www.openfoam.com/news/main-news/openfoam-v20-06>
 
 ## Description
 There are three benchmark problems in this repository. *Unidimensional-rod-ejection*, *TWIGL-2D*, and *3D-rod-ejection* are the cases which have been validated in the paper. 
